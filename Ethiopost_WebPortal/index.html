@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethiopost</title>
     <style>
 
-    input[type=text] {
-  width: 200px;
-  box-sizing: border-box;
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 5px 5px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-  box-shadow: 0px 10px 60px grey;
-}
-.h{
-    height: 50px;
-}
+  
 
-input[type=text]:focus {
-  width: 30%;
-}
+
     </style>
 </head>
 <body>
+    
     <center>
         <img src="https://ethiopost.et/wp-content/uploads/2022/02/Logo.png" alt="#"> 
     </center>
-    <div class="h">
-
-    </div>
+    <div class="h"></div>
+    <div class="h"></div>
+    <center>
+      <div>
+                                <!-- Branch -->
+          <button class="rounded-button" type="button">
+              <ion-icon name="add-outline"> </ion-icon>Branch
+          </button>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                              <!-- Admin -->
+           <button class="rounded-button" type="button">
+              <ion-icon name="person-add-outline"></ion-icon>  Admin
+          </button>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                             <!-- TT -->
+          ​<button class="rounded-button" type="button">
+              <ion-icon name="ticket-outline"></ion-icon>
+              TT
+          </button>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </div>
+      <div class="h"></div>
+      <hr>
+    </center>
+    <div class="h"></div>
+   
     <div class="search">
         <center>
-            <input type="text" name="search" placeholder="Search here">
+            <form action="#">
+                <input type="text" name="search" placeholder="Search here">
+                <button type="submit" class="fas fa-search"></button>
+             </form>  
+            
         </center>
-        
     </div>
+    
+ 
    
 </body>
 </html>

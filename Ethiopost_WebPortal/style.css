@@ -1,3 +1,70 @@
 body {
-  background-color: lightblue;
+  background-color: white;
 }
+ form button{
+  padding: 10px 10px;
+  color: #fff;
+  font-size: 10px;
+  background: #352584;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 10px 50px grey;
+}
+ form button:hover{
+  background: rgb(0, 0, 0);
+  
+}
+
+  input[type=text] {
+    width: 250px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    box-shadow: 0px 5px 30px grey;
+  }
+  /*line space*/
+  .h{
+      height: 25px;
+  }
+
+.w{
+    width: 20px;
+}
+  
+  input[type=text]:focus {
+    width: 30%;
+  }
+  .rounded-button {
+    width: 100px;
+    height: 40px;
+    background: #ffffff;
+    color: #000000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+    box-shadow: 0px 5px 10px grey;
+
+  }
+  
+  .rounded-button:hover {
+    background: #202020;
+    color: #ffffff;
+  }
+  /* horizontal line*/
+  hr{
+    opacity: 0.1;
+  }
